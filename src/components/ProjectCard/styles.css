@@ -1,0 +1,23 @@
+.project-card {
+  margin: 24px;
+  border-radius: 12px;
+  height: 500px;
+}
+
+.flip {
+  border: 1px solid red;
+  height: 450px;
+  border-radius: 16px;
+  padding: 24px;
+  overflow-y: scroll;
+}
+
+.flip.front {
+  transition: 1s;
+  transform: rotateY(0deg); /* Rotate to the front */
+}
+
+.flip.back {
+  transition: 0.5s;
+  transform: rotateY(360deg); /* Rotate to the back */
+}

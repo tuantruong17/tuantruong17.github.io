@@ -1,0 +1,33 @@
+#header {
+  background-color: var(--blue);
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 12px;
+  padding: 0 16px;
+  border-radius: 999px;
+  z-index: 9999;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+}
+
+.header-link {
+  flex: 1;
+  text-decoration: none;
+  color: white;
+  margin: 12px;
+  border-radius: 999px;
+  padding: 8px 16px;
+}
+
+.header-link:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-link.active {
+  background-color: white;
+  color: var(--blue);
+}

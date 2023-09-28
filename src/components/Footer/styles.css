@@ -1,0 +1,46 @@
+#footer {
+  padding: 12px;
+  display: flex;
+}
+
+#copyright {
+  background-color: gainsboro;
+  color: black;
+  padding: 12px;
+  text-align: center;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 5px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.pointing-right-icon {
+  display: inline-block;
+  animation: slide 1s infinite;
+  font-size: 1.5rem;
+}
+
+#footer i {
+  color: var(--darkblue);
+  font-size: 36px;
+  margin: 8px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-list > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

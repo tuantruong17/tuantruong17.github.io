@@ -1,0 +1,76 @@
+#home,
+#skills {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+#home img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+#home h2 {
+  margin-right: 12px;
+  font-size: 3rem;
+}
+
+.column h3 {
+  margin: 8px;
+  text-align: center;
+}
+
+.skill-card {
+  text-align: center;
+  border-radius: 999px;
+  background-color: var(--blue);
+  color: #fff;
+  padding: 6px 12px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.column {
+  padding: 12px;
+  flex: 1;
+  /* border: 1px solid blue; */
+}
+
+#home .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.waving-icon {
+  display: inline-block;
+  animation: wave 1s infinite;
+}
+
+.transition-home-1-2 {
+  background: linear-gradient(to bottom, var(--lightyellow), var(--yellow));
+}
+
+.transition-background-home-1 {
+  padding-bottom: 86px;
+  background: linear-gradient(to bottom, var(--background), var(--lightyellow));
+}

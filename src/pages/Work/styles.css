@@ -1,0 +1,18 @@
+.work-background {
+  background-color: var(--black);
+  color: white;
+}
+
+.work-background a {
+  color: white;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-bottom: 84px
+}
+
+.transition-background-work-1 {
+  background: linear-gradient(to bottom, var(--background), var(--black));
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--darkblue);
+  font-family: "Share Tech Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+:root {
+  --darkblue: #00129a;
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --background: #c7fbfd;
+  --yellow: #e6f7be;
+  --lightyellow: #ffffe0;
+  --black: #2a2a2a;
+}
