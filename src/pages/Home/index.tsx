@@ -12,7 +12,7 @@ export const Home = () => {
         <div className="content">
           <div id="home">
             <div className="column">
-              <img alt="Avatar" src="avatar.jpg" />
+              <img alt="Avatar" src="avatar.jpeg" />
             </div>
             <div className="column">
               <div>
